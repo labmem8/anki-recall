@@ -1,25 +1,26 @@
 # anki-recall
-Collection of scripts for MacroDroid that help prevent you from missing Anki on your Android phone.
+This is a collection of scripts for MacroDroid that can help you prevent missing Anki on your Android phone.
 
 ***
 ## Installation
 
-### Pre requirenments
+### Prerequisites
 
-Required OS: Android
-#### Set up Macrodroid
-0. Install [Ankidroid](https://play.google.com/store/apps/details?id=com.ichi2.anki) if not installed. Set up Ankidroid so it works properly.
-1. Install [Macrodroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid "playstore link")
-2. Open Macrodroid, scroll to the bottom and open `Quick Settings Tiles`. Enable the first one
+Operating System: Android
+#### Set up MacroDroid
+0. Install [AnkiDroid](https://play.google.com/store/apps/details?id=com.ichi2.anki) if it is not already installed. Set up AnkiDroid so that it works properly.
+1. Install [MacroDroid](https://play.google.com/store/apps/details?id=com.arlosoft.macrodroid "Play Store link").
+2. Open MacroDroid, scroll to the bottom and open `Quick Settings Tiles`. Enable the first one.
 3. //here will be some other steps later
 
-#### Download [Anki.category script collection](https://github.com/labmem8/anki-recall/releases/tag/pre-release).
-1. Open it with Macrodroid.
-2. Give the permissions it will ask you to give: `Accesability Permision`, `Usage statistics`, `Notifications` (this one is optional, needed only for small part of functionality: clearing old notifications and checking if alarm application is running)
-3. Go to `Macros` and switch `Anki init` macros. It will initialize all other macros and variables.
-4. Go to Quick Settings Dropdown of your phone (the thing where your wifi tile is) and edit it. You will see `Macrodroid tile 1`. Move it to regular tiles. Quit edit menu.
-5. The tile you moved now should have name `Anki` and have an icon of a lamp. Click on it. You'll see popup message `Anki is back!`
-6. Done!
+#### Download the [Anki Category Script Collection](https://github.com/labmem8/anki-recall/releases/tag/pre-release).
+1. Open it with MacroDroid.
+2. Give it the necessary permissions: `Accessibility Permission`, `Usage Statistics`, `Notifications` (this one is optional and only needed for a small part of the functionality, which involves clearing old notifications and checking if the alarm application is running).
+3. Go to `Macros` and switch `Anki Init` macros. This will initialize all other macros and variables.
+4. Go to the Quick Settings Dropdown on your phone (the thing where your Wi-Fi tile is) and edit it. You will see `MacroDroid Tile 1`. Move it to the regular tiles and quit the edit menu.
+5. The tile you moved should now have the name `Anki` and an icon of a lamp. Click on it. You will see a popup message saying `Anki is back!`
+6. You're done!
+
 ***
 ## Description
 The program has 5 states:
