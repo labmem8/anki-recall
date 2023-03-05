@@ -29,7 +29,7 @@ The program has 5 states:
   ### Distracted state
   If for some reason you fail to spent `45 seconds` of time, and\or quit Ankidroid app, the program will let you be distracted for `30 seconds` by default,
   and it will launch Ankidroid again when you unlock your phone or after `30 seconds` have passed. Your progression of work that you've done before 
-  getting distracted will be saved. Within distraction state the program meant to be more pushy and more annoying, while also giving you a small
+  getting distracted will be saved. When in distraction state the program is meant to be more pushy and more annoying, while also giving you a small
   window to be distracted in case it's something important and you can't finish your anki working sprint in one sitting.
   <br><br>You know you are in this state if you see `Anki is closed, see ya!` popup (if you didn't get another popup before about moving to cooldown state).
   ### Cooldown state
