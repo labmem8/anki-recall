@@ -20,7 +20,7 @@ Required OS: Android
 4. Go to Quick Settings Dropdown of your phone (the thing where your wifi tile is) and edit it. You will see `Macrodroid tile 1`. Move it to regular tiles. Quit edit menu.
 5. The tile you moved now should have name `Anki` and have an icon of a lamp. Click on it. You'll see popup message `Anki is back!`
 6. Done!
-
+***
 ## Description
 The program has 5 states:
   ### Work sprint state
