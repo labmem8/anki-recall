@@ -36,3 +36,6 @@ The program has 5 states:
   If you are outside and need your phone to be functional 100% without annoying anki trying to force itself onto your screen, you can click on the `Anki` tile in android tile menu, which will snooze the script for 30 minutes by default. It's not recommended to use this setting constantly otherwise the whole point of not forgetting to do anki will be lost.
   ##### Finished state (hard turn off)
   This state means you're done with anki for today. To go to this state, you need to first click on `Anki` tile, which will snooze it first, and then you need to click on notification `Done for today?`. It will start script that syncronises Anki with cloud and turns it off for the whole day. (you can always click on the tile again to turn it back on)
+  
+#### How to customize
+IF you want to customize all of those default times, you can do this in Macrodroid variables.
