@@ -24,24 +24,29 @@ Operating System: Android
 ***
 ## Description
 The program has 5 states:
-  ### Work sprint state
-  There is a short amount of time, required of you to spend in Ankidroid every n hours. By default it's `45 seconds` every `1 hour`.
-  <br><br>You know you are in this state if you see `Anki time!` popup. 
-  ### Distracted state
-  If for some reason you fail to spent `45 seconds` of time, and\or quit Ankidroid app, the program will let you be distracted for `30 seconds` by default,
-  and it will launch Ankidroid again when you unlock your phone or after `30 seconds` have passed. Your progression of work that you've done before 
-  getting distracted will be saved. When in distraction state the program is meant to be more pushy and more annoying, while also giving you a small
-  window to be distracted in case it's something important and you can't finish your anki working sprint in one sitting.
-  <br><br>You know you are in this state if you see `Anki is closed, see ya!` popup (if you didn't get another popup before about moving to cooldown state).
-  ### Cooldown state
-  If you manage to spend in total `45 seconds` for learning Anki, you will be granted `1 hour` of cooldown time, which means anki won't bother you next `1 hour` as a reward because you did a good job. After `1 hour` you move to `Work sprint state` again, cycle repats.
-  <br><br>You know you are in this state if you see `Work sprint done. Good job!` popup.
-  ### Snoozed state (soft turn off)
-  If you are outside and need your phone to be functional 100% without annoying anki trying to force itself onto your screen, you can click on the `Anki` tile in android tile menu, which will snooze the script for `30 minutes` by default. It's not recommended to use this setting constantly otherwise the whole point of not forgetting to do anki will be lost.
-  <br><br>You know you are in this state if you see `Snoozed for 30 min Zzz` popup.
-  ### Finished state (hard turn off)
-  This state means you're done with anki for today. To go to this state, you need to first click on `Anki` tile, which will snooze it first, and then you need to click on notification `Done for today?`. It will start script that syncronises Anki with cloud and turns it off for the whole day. (you can always click on the tile again to turn it back on)
-  <br><br>You know you are in this state if you see `Done with Anki for today!` popup.
-  
+
+### Work sprint state
+This state requires you to spend a short amount of time in Ankidroid every n hours, which is set to `45 seconds` every `1 hour` by default.
+You can identify this state by seeing the `Anki time!` popup.
+
+### Distracted state
+If you fail to spend the required `45 seconds` in Ankidroid, or quit the app for any reason, the program will switch to the distracted state. 
+In this state, you are allowed to be distracted for `30 seconds` by default, and then the program will relaunch Ankidroid. Your work progress is saved while you are distracted.
+This state is designed to be more pushy and annoying, but it also gives you a small window to be distracted in case it's important and you can't complete your Anki work in one sitting.
+You can identify this state by seeing the `Anki is closed, see ya!` popup (if you didn't get another popup before about moving to cooldown state).
+
+### Cooldown state
+When you spend a total of `45 seconds` in Ankidroid, you will be rewarded with a `1 hour` cooldown period where Anki won't bother you. After the cooldown period ends, you move back to the `Work sprint state`, and the cycle repeats.
+You can identify this state by seeing the `Work sprint done. Good job!` popup.
+
+### Snoozed state (soft turn off)
+If you're outside and need your phone to function without interruptions, you can use the `Anki` tile in the Android tile menu to snooze the script for `30 minutes` by default. However, it's not recommended to use this setting constantly, as the purpose of the program is to prevent you from forgetting to do Anki.
+You can identify this state by seeing the `Snoozed for 30 min Zzz` popup.
+
+### Finished state (hard turn off)
+This state means that you've completed your Anki work for the day. To enter this state, you need to first click on the `Anki` tile, which snoozes the script, and then click on the notification `Done for today?`. This will synchronize your Anki data with the cloud and turn off the program for the rest of the day. You can always turn it back on by clicking the tile again.
+You can identify this state by seeing the `Done with Anki for today!` popup.
+
 #### How to customize
-IF you want to customize all of those default times, you can do this in Macrodroid variables.
+If you want to customize the default times for each state, you can modify the values of the Macrodroid variables.
+
